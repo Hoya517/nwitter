@@ -1,4 +1,36 @@
 # 김주호
+
+## [03월 30일]
+#### Firebase
+- 파이어베이스 프로젝트 만들기
+- 파이어베이스에 웹 애플리케이션 등록하기
+- firebaseConfig값 복사하고 firebase.js 파일 수정하기
+    - 파이어베이스 SDK 리액트 버전 설치
+    ```
+    npm install firebase
+    ```
+    - "firebase/app"에 포함된 모든 모듈을 firebase 객체에 부여
+    ```
+    import firebase from "firebase/app"         #firebase v8
+    import firebase from "firebase/compat/app"  #firebase v9
+    ```
+#### Firebase
+- .env 파일 생성
+- .env 파일 숨기기: `.gitignore 에 추가`
+- firebase.js에 환경 변수 적용
+
+#### Router
+- Router는 `BASE_URL/a`나 `BASE_URL/a`와 같은 주소 입력시, 어떤 컴포넌트(화면)를 보여줄지(렌더링) 결정하는 역할
+- 뼈대 만들기
+    - /src/`components` 생성
+    - /src/`routes` 생성
+- react-router-dom 설치하고 라우터 설정하기
+```
+npm install react-router-dom
+```
+- Component는 화면을 표현하기 위한 조각
+- 훅스(Hooks)는 함수 컴포넌트에서 상태를 사용
+-  useState()는 훅스(Hooks)를 사용
 ## [03월 23일]
 #### CRA
 -  프로젝트 생성
